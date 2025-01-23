@@ -25,3 +25,16 @@ main {
     border-radius: 5px;
     height: 100%;
 }
+
+.die {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.dice-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px
+}
